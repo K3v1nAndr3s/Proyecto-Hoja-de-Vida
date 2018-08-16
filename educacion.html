@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width, user-scalable= no">
+    <title>Educación</title>
+  </head>
+  <header>
+    <svg>
+      <image xlink:href="Image/LogoKAMR.svg" width="170px" heigth="170px"></image>
+    </svg>
+    <h1>Hoja de Vida</h1>
+    <h2>Nombre:</h2>
+    <h3>Kevin Andrés Mena Ramírez</h3>
+    <h2>Fecha de nacimiento:</h2>
+    <h3>14 de Julio, 1996</h3>
+    <h2>Lugar de nacimiento:</h2>
+    <h3>San Jose, Costa Rica</h3>
+  </header>
+  <nav>
+    <a href="index.html"><input type="button" name="inicio" value="Inicio"></a>
+    <a href="educacion.html"><input type="button" name="educacion" value="Educación"></a>
+    <a href="experiencia.html"><input type="button" name="experiencia" value="Experiencia"></a>
+  </nav>
+  <body>
+    <h2>Educación</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2015</td>
+          <td>Colegio Técnico Máximo Quesada</td>
+          <td>San José, Costa Rica</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2013</td>
+          <td>Escuela Técnica Ingles</td>
+          <td>San José, Costa Rica</td>
+          <td>Sí</td>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      <legend><h3>Agregar Estudios</h3></legend>
+      <p>
+      <label for="año"><strong>Año: </strong></label>
+      <select class="date" name="Año">
+        <option>2025</option>
+        <option>2024</option>
+        <option>2023</option>
+        <option>2022</option>
+        <option>2021</option>
+        <option>2020</option>
+        <option>2019</option>
+        <option>2018</option>
+        <option>2017</option>
+        <option>2016</option>
+        <option>2015</option>
+        <option>2014</option>
+        <option>2013</option>
+        <option>2012</option>
+        <option>2011</option>
+        <option>2010</option>
+        <option>2009</option>
+        <option>2008</option>
+        <option>2007</option>
+      </select>
+      </p>
+      <p>
+      <label for="institucion"> <strong>Institución: </strong> </label>
+      <input type="text" required name="insti" id="institucion">
+      </p>
+      <p>
+      <label for="lugar"><strong>Lugar: </strong></label>
+      <input type="text" size="25" name="lug" id="lugar">
+      </p>
+      <input type="button" name="enviar" value="Enviar">
+    </form>
+  </body>
+  <footer>Correo Electronico: k3vfoncr@gmail.com | Teléfono: 86094935</footer>
+</html>
